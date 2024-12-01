@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  height: 15vh;
+  font-family: "Oswald";
+  justify-content: space-around;
+  align-items: center;
+}
+header h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+header section {
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+  align-items: center;
+}
+header section ul {
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  font-size: 1.25em;
+  list-style: none;
+}
+header section ul a {
+  text-decoration: none;
+  color: #5B5B5B;
+  font-weight: 500;
+}
+header section button {
+  height: 9vh;
+  width: 8vw;
+  font-family: "Oswald";
+  font-size: 1.5em;
+  border: solid black;
+  background-color: white;
+  font-weight: 500;
+}
+
+main .mainTitulo {
+  height: 80vh;
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .mainTitulo h1 {
+  font-size: 6em;
+  color: white;
+  font-weight: 700;
+}
+main .mainTitulo p {
+  font-size: 2em;
+  color: white;
+  font-weight: 300;
+  padding-bottom: 2vh;
+}
+main .mainTitulo button {
+  font-family: "Oswald";
+  font-size: 1.5em;
+  width: 13vw;
+  background-color: #0016DF;
+  border: none;
+  height: 6vh;
+  font-weight: 700;
+  color: white;
+}
+main .mainProposta {
+  display: flex;
+  height: 140vh;
+  justify-content: space-around;
+}
+main .mainProposta article {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .mainProposta h3 {
+  font-family: "Oswald";
+  font-size: 1.5em;
+  padding-bottom: 3vh;
+  font-weight: 500;
+}
+main .mainProposta h2 {
+  font-family: "Roboto";
+  font-size: 2.25em;
+  padding-bottom: 3vh;
+  font-weight: 800;
+}
+main .mainProposta p {
+  font-family: "Roboto";
+  font-size: 1.5em;
+  padding-bottom: 3vh;
+  font-weight: 400;
+}
+main .mainProposta ul {
+  list-style: none;
+}
+main .mainProposta a {
+  font-family: "Roboto";
+  font-size: 1.5em;
+  color: #0017E9;
+  text-decoration: none;
+  font-weight: 400;
+}
+main .mainSolucoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140vh;
+  justify-content: center;
+  background-color: #D8D8D8;
+}
+main .mainSolucoes .mainSolucoesTitulos {
+  height: 30vh;
+  width: 30vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5em;
+}
+main .mainSolucoes .mainSolucoesTitulos h2 {
+  padding-bottom: 8%;
+  color: #0017E9;
+}
+main .mainSolucoes .mainSolucoesFigure {
+  width: 95vw;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Oswald";
+  height: 62vh;
+  font-size: 1.5em;
+}
+main .mainSolucoes .mainSolucoesFigure figure {
+  width: 25vw;
+  height: 62vh;
+  box-shadow: 0px 0px 10px black;
+  background-color: white;
+}
+main .mainSolucoes .mainSolucoesFigure figure img {
+  width: 100%;
+}
+main .mainSolucoes .mainSolucoesFigure figure figcaption {
+  width: 100%;
+}
+main .mainSolucoes .mainSolucoesFigure figure figcaption h3 {
+  padding: 6%;
+}
+main .mainSolucoes .mainSolucoesFigure figure figcaption p {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+main .mainContato {
+  display: flex;
+  justify-content: space-around;
+  height: 120vh;
+}
+main .mainContato .mainContatoUnidades {
+  width: 45vw;
+  padding-top: 3%;
+}
+main .mainContato .mainContatoUnidades h2 {
+  padding-bottom: 3%;
+  font-family: "Oswald";
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+main .mainContato .mainContatoUnidades p {
+  padding-bottom: 3%;
+  font-family: "Oswald";
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+main .mainContato .mainContatoUnidades div {
+  display: flex;
+}
+main .mainContato .mainContatoUnidades div figure {
+  height: 30vh;
+  width: 20vw;
+  font-family: "Oswald";
+  font-size: 1.25em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+main .mainContato .mainContatoUnidades div figure img {
+  width: 18vw;
+}
+main .mainContato .mainFormularioContato {
+  width: 45vw;
+  padding-top: 3%;
+}
+main .mainContato .mainFormularioContato form {
+  display: flex;
+  flex-direction: column;
+}
+main .mainContato .mainFormularioContato h2 {
+  padding-bottom: 3%;
+  font-family: "Oswald";
+  font-size: 2em;
+  text-transform: uppercase;
+}
+main .mainContato .mainFormularioContato p {
+  padding-bottom: 3%;
+  font-family: "Oswald";
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+main .mainContato .mainFormularioContato form {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  font-family: "Oswald";
+  font-size: 1.25em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main .mainContato .mainFormularioContato form input {
+  border: 1px solid black;
+  width: 26vw;
+  height: 5vh;
+  margin-bottom: 4%;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: "Oswald";
+  padding: 2%;
+}
+main .mainContato .mainFormularioContato form textarea {
+  border: 1px solid black;
+  width: 26vw;
+  resize: none;
+  height: 20vh;
+  margin-bottom: 6%;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: "Oswald";
+  padding: 2%;
+}
+main .mainContato .mainFormularioContato form button {
+  width: 28vw;
+  height: 8vh;
+  border: none;
+  font-size: 1.5em;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  background-color: #0017E9;
+  color: white;
+}
+
+footer {
+  height: 10vh;
+  background-color: #D8D8D8;
+  font-family: "Oswald";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875em;
+  color: #001C43;
+}/*# sourceMappingURL=style.css.map */
