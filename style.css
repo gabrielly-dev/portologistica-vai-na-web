@@ -144,7 +144,7 @@ main .mainSolucoes .mainSolucoesArticle {
 }
 main .mainSolucoes .mainSolucoesArticle article {
   width: 25vw;
-  height: 55vh;
+  height: 65vh;
   box-shadow: 0px 0px 10px black;
   background-color: white;
 }
