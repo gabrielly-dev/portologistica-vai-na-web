@@ -127,7 +127,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 140vh;
+        height: 120vh;
         justify-content: center;
         background-color: #D8D8D8;
 
@@ -146,23 +146,23 @@ main {
             }
         }
 
-        .mainSolucoesFigure {
+        .mainSolucoesArticle {
             width: 95vw;
             display: flex;
             justify-content: space-around;
             font-family: "Oswald";
             height: 62vh;
             font-size: 1.5em;
-            figure{
+            article{
                 width: 25vw;
-                height: 62vh;
+                height: 55vh;
                 box-shadow: 0px 0px 10px black;
                 background-color: white;
                 img {
                     width: 100%;
                 }
     
-                figcaption{
+                div{
                     width: 100%;
                     h3{
                         padding: 6%;
@@ -191,6 +191,7 @@ main {
                 font-size: 2em;
                 text-transform: uppercase;
                 font-weight: 500;
+                color: #0017E9;
             }
             p{
                 padding-bottom: 3%;
@@ -229,6 +230,7 @@ main {
                 font-family: "Oswald";
                 font-size: 2em;
                 text-transform: uppercase;
+                color: #0017E9;
             }
             p{
                 padding-bottom: 3%;
@@ -240,7 +242,6 @@ main {
             form{
                 display: flex;
                 flex-direction: column;
-                
                 width: 45vw;
                 font-family: "Oswald";
                 font-size: 1.25em;
@@ -298,7 +299,7 @@ footer {
     color: #001C43;
 }
 
-@media(min-width:201px) and (max-width: 500px){
+@media(min-width:201px) and (max-width: 900px){
     header{
         height: 15vh;
         width: 100%;
@@ -375,7 +376,7 @@ footer {
         .mainSolucoes{
             display: flex;
             flex-direction: column;
-            height: 350vh;
+            height: 280vh;
             justify-content: space-evenly;
             .mainSolucoesTitulos{
                 width: 100vw;
@@ -386,17 +387,17 @@ footer {
                     font-size: 1.25em;
                 }
             }
-            .mainSolucoesFigure{
+            .mainSolucoesArticle{
                 display: flex;
                 flex-direction: column;
-                height: 300vh;
+                height:220vh;
                 align-items: center;
-                figure{
-
+                article{
+                    height: 68vh;
                     width: 75%;
                     border: solid red;
 
-                    figcaption{
+                    div{
                         h3{
                             font-size: 0.875em;
                         }
@@ -407,8 +408,90 @@ footer {
                 }
             }
         }
+
+        .mainContato{
+            width: 100vw;
+            height: 300vh;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            .mainContatoUnidades{
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                height: 170vh;
+                justify-content: space-evenly;
+                h2{
+                    font-size: 1.25em;
+                }
+                p{
+                    font-size: 0.938em;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    height: 70vh;
+                    align-items: center;
+                    figure {
+                        width: 70%;
+                        height: 35vh;
+                        text-align: start;
+                        img{
+                            width: 100%;
+                        }
+                        figcaption{
+                            font-size: 0.688em;
+                        }
+                    }
+                }
+            }
+
+            .mainFormularioContato{
+                width: 100vw;
+                height: 130vh;
+                h2{
+                    font-size: 1.25em;
+                }
+                p{
+                    font-size: 0.938em;
+                }
+                form{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 100vh;
+                    justify-content: space-evenly;
+                    font-size: 0.813em;
+                    label{
+                        width: 84%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+
+                    }
+                    input{
+                        width: 80%;
+                    }
+                    textarea{
+                        width: 80%;
+                    }
+                    button{
+                        width: 84%;
+                        height: 10vh;
+                        font-size: 0.813em;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        font-size: 0.688em;
     }
 }
+
 
 
 @media (max-height: 818px) {

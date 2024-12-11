@@ -117,7 +117,7 @@ main .mainSolucoes {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 140vh;
+  height: 120vh;
   justify-content: center;
   background-color: #D8D8D8;
 }
@@ -134,7 +134,7 @@ main .mainSolucoes .mainSolucoesTitulos h2 {
   padding-bottom: 8%;
   color: #0017E9;
 }
-main .mainSolucoes .mainSolucoesFigure {
+main .mainSolucoes .mainSolucoesArticle {
   width: 95vw;
   display: flex;
   justify-content: space-around;
@@ -142,22 +142,22 @@ main .mainSolucoes .mainSolucoesFigure {
   height: 62vh;
   font-size: 1.5em;
 }
-main .mainSolucoes .mainSolucoesFigure figure {
+main .mainSolucoes .mainSolucoesArticle article {
   width: 25vw;
-  height: 62vh;
+  height: 55vh;
   box-shadow: 0px 0px 10px black;
   background-color: white;
 }
-main .mainSolucoes .mainSolucoesFigure figure img {
+main .mainSolucoes .mainSolucoesArticle article img {
   width: 100%;
 }
-main .mainSolucoes .mainSolucoesFigure figure figcaption {
+main .mainSolucoes .mainSolucoesArticle article div {
   width: 100%;
 }
-main .mainSolucoes .mainSolucoesFigure figure figcaption h3 {
+main .mainSolucoes .mainSolucoesArticle article div h3 {
   padding: 6%;
 }
-main .mainSolucoes .mainSolucoesFigure figure figcaption p {
+main .mainSolucoes .mainSolucoesArticle article div p {
   padding-left: 6%;
   padding-right: 6%;
 }
@@ -176,6 +176,7 @@ main .mainContato .mainContatoUnidades h2 {
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 500;
+  color: #0017E9;
 }
 main .mainContato .mainContatoUnidades p {
   padding-bottom: 3%;
@@ -211,6 +212,7 @@ main .mainContato .mainFormularioContato h2 {
   font-family: "Oswald";
   font-size: 2em;
   text-transform: uppercase;
+  color: #0017E9;
 }
 main .mainContato .mainFormularioContato p {
   padding-bottom: 3%;
@@ -270,7 +272,7 @@ footer {
   color: #001C43;
 }
 
-@media (min-width: 201px) and (max-width: 500px) {
+@media (min-width: 201px) and (max-width: 900px) {
   header {
     height: 15vh;
     width: 100%;
@@ -341,7 +343,7 @@ footer {
   main .mainSolucoes {
     display: flex;
     flex-direction: column;
-    height: 350vh;
+    height: 280vh;
     justify-content: space-evenly;
   }
   main .mainSolucoes .mainSolucoesTitulos {
@@ -353,21 +355,99 @@ footer {
   main .mainSolucoes .mainSolucoesTitulos h3 {
     font-size: 1.25em;
   }
-  main .mainSolucoes .mainSolucoesFigure {
+  main .mainSolucoes .mainSolucoesArticle {
     display: flex;
     flex-direction: column;
-    height: 300vh;
+    height: 220vh;
     align-items: center;
   }
-  main .mainSolucoes .mainSolucoesFigure figure {
+  main .mainSolucoes .mainSolucoesArticle article {
+    height: 68vh;
     width: 75%;
     border: solid red;
   }
-  main .mainSolucoes .mainSolucoesFigure figure figcaption h3 {
+  main .mainSolucoes .mainSolucoesArticle article div h3 {
     font-size: 0.875em;
   }
-  main .mainSolucoes .mainSolucoesFigure figure figcaption p {
+  main .mainSolucoes .mainSolucoesArticle article div p {
     font-size: 0.813em;
+  }
+  main .mainContato {
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  main .mainContato .mainContatoUnidades {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    justify-content: space-evenly;
+  }
+  main .mainContato .mainContatoUnidades h2 {
+    font-size: 1.25em;
+  }
+  main .mainContato .mainContatoUnidades p {
+    font-size: 0.938em;
+  }
+  main .mainContato .mainContatoUnidades div {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+  }
+  main .mainContato .mainContatoUnidades div figure {
+    width: 70%;
+    height: 35vh;
+    text-align: start;
+  }
+  main .mainContato .mainContatoUnidades div figure img {
+    width: 100%;
+  }
+  main .mainContato .mainContatoUnidades div figure figcaption {
+    font-size: 0.688em;
+  }
+  main .mainContato .mainFormularioContato {
+    width: 100vw;
+    height: 130vh;
+  }
+  main .mainContato .mainFormularioContato h2 {
+    font-size: 1.25em;
+  }
+  main .mainContato .mainFormularioContato p {
+    font-size: 0.938em;
+  }
+  main .mainContato .mainFormularioContato form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    font-size: 0.813em;
+  }
+  main .mainContato .mainFormularioContato form label {
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  main .mainContato .mainFormularioContato form input {
+    width: 80%;
+  }
+  main .mainContato .mainFormularioContato form textarea {
+    width: 80%;
+  }
+  main .mainContato .mainFormularioContato form button {
+    width: 84%;
+    height: 10vh;
+    font-size: 0.813em;
+  }
+  footer {
+    font-size: 0.688em;
   }
 }
 @media (max-height: 818px) {
