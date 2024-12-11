@@ -364,7 +364,6 @@ footer {
   main .mainSolucoes .mainSolucoesArticle article {
     height: 68vh;
     width: 75%;
-    border: solid red;
   }
   main .mainSolucoes .mainSolucoesArticle article div h3 {
     font-size: 0.875em;
