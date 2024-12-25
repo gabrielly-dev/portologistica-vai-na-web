@@ -492,12 +492,14 @@ footer {
 
 
 
-@media (max-height: 818px) {
+@media  (max-height:956px){
     main {
         .mainSolucoes{
-            .mainSolucoesFigure{
-                figure {
-                    height: 90vh;
+            height: 250vh;
+            .mainSolucoesArticle{
+                height: 200vh;
+                article {
+                    max-height: 55vh;
                 }
             }
         }

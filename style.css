@@ -449,8 +449,14 @@ footer {
     font-size: 0.688em;
   }
 }
-@media (max-height: 818px) {
-  main .mainSolucoes .mainSolucoesFigure figure {
-    height: 90vh;
+@media (max-height: 956px) {
+  main .mainSolucoes {
+    height: 250vh;
+  }
+  main .mainSolucoes .mainSolucoesArticle {
+    height: 200vh;
+  }
+  main .mainSolucoes .mainSolucoesArticle article {
+    max-height: 55vh;
   }
 }/*# sourceMappingURL=style.css.map */
