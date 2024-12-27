@@ -681,3 +681,22 @@ footer {
     }
 }
 
+@media(max-width:1500px) and (max-height:800px) {
+    .mainSolucoesArticle{
+        display: flex;
+        height:250vh;
+        align-items: center;
+        article{
+            height: 75vh;
+            width: 75%;
+            div{
+                h3{
+                    font-size: 0.875em;
+                }
+                p{
+                    font-size: 0.813em;
+                }
+            }
+        }
+    }
+}
